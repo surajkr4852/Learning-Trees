@@ -1,14 +1,10 @@
-// import static org.junit.jupiter.api.Assertions.assertEquals;
-
-// import org.junit.jupiter.api.Test;
+import java.util.*;
 
 public class Main {
-  public static void main(String[] args) {
-    System.out.println("Hello world!");
+  public static void main(String args[]) {
+    Scanner scanner = new Scanner(System.in);
+    BinaryTree tree = new BinaryTree();
+    tree.populate(scanner);
+    tree.preetyDisplay();
   }
-
-  // @Test
-  // void addition() {
-  //     assertEquals(2, 1 + 1);
-  // }
 }
